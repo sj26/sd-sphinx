@@ -2,7 +2,7 @@
 
 Returns all sphinx stats properly.
 
-Allows specifying `sphinx_config` to monitor a specific Sphinx configuration, like for ThinkingSphinx.
+Uses the new MySQL protocol via the mysql command line client which must be installed. Take care to configure correctly as it may just show you MySQL's status otherwise.
 
 Requires Python 2.7+
 
